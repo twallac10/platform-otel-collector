@@ -1,6 +1,6 @@
-# __APP__
+# otel-collector
 
-Deployment repo for the `__APP__` platform app. Created from
+Deployment repo for the `otel-collector` platform app. Created from
 [platform-app-template](https://github.com/twallac10/platform-app-template) by
 `task repos:create` in platform-fleet; keep the shape identical to the template.
 
@@ -14,7 +14,7 @@ Deployment repo for the `__APP__` platform app. Created from
 | `scripts/` | Used by the workflows and by `task charts:seed` | |
 
 Flux in each tier's cluster applies `./tiers/<tier>` from this repo (see
-platform-fleet `fleet/apps/__APP__.yaml`).
+platform-fleet `fleet/apps/otel-collector.yaml`).
 
 ## Changing things
 

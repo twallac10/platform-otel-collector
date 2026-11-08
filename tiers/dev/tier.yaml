@@ -2,7 +2,14 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: __APP__
-  namespace: __APP__
+  name: otel-collector
+  namespace: otel
 spec:
-  values: {}
+  values:
+    replicaCount: 1
+    resources:
+      requests:
+        cpu: 50m
+        memory: 64Mi
+      limits:
+        memory: 256Mi
