@@ -9,7 +9,7 @@ metadata:
     platform.twallac10.io/chart-version: "0.178.2"
 spec:
   ref:
-    digest: "sha256:ec9cbcde9c4dfa214e94f9d5dc379cc09d187d43e8cbe3020e8476611ab28034" # set by `task charts:seed` / mirror.yaml
+    digest: "sha256:676bc32e151c741f24c93ba5fe2f20471d8e88b95c19ebf10b6c6b8e2d6ac41b" # set by `task charts:seed` / mirror.yaml
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
